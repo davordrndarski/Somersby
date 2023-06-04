@@ -305,6 +305,14 @@ h1,h2,h3,h4,h6 {
   left: 15%;
 }
 
+.locations .location_logo {
+  width: 120px;
+  height: auto;
+  position: absolute;
+  top: 5%;
+  right: 15%;
+}
+
 .locations .copy,
 .rules .copy,
 .winners .copy {
@@ -571,6 +579,12 @@ h1,h2,h3,h4,h6 {
   .locations .location_top {
     top: 100px;
     left: 30px;
+  }
+
+  .locations .location_logo {
+    width: 80px;
+    top: 30px;
+    right: 30px;
   }
 
   .locations {
