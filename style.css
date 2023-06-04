@@ -202,12 +202,12 @@ h1,h2,h3,h4,h6 {
   transform: rotate3d(0, 0, 1, 45deg);
 }
 
-.rules .toggle-menu span:before, .toggle-menu span:after,
-.winners .toggle-menu span:before, .toggle-menu span:after,
+.rules .toggle-menu span:before, .rules .toggle-menu span:after,
+.winners .toggle-menu span:before, .winners .toggle-menu span:after,
 .winners .toggle-menu span,
 .rules .toggle-menu span,
 
-.rules .toggle-menu span:before, .toggle-menu span:after,
+.rules .toggle-menu span:before, .rules .toggle-menu span:after,
 .rules .toggle-menu span,
 
 .winners .toggle-menu.active span:before, 

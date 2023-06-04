@@ -51,10 +51,10 @@ $(document).on("change", ".boxselect", function () {
 
 // Nav
 
-$('.toggle-menu').click (function(){
-  $(this).toggleClass('active');
+$('.mob-btn').click(function() {
+  $('.toggle-menu').toggleClass('active');
   $('.nav').toggleClass('nav_open');
-});
+})
 
 
 
