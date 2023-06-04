@@ -46,3 +46,17 @@ $(document).on("change", ".boxselect", function () {
   $("." + $this.val()).show();
   console.log("showing " + $this.val() + " boxes");
 });
+
+
+
+// Nav
+
+$('.toggle-menu').click (function(){
+  $(this).toggleClass('active');
+  $('.nav').toggleClass('nav_open');
+});
+
+
+
+
+
