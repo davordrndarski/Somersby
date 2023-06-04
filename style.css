@@ -26,9 +26,6 @@
 }
 
 
-
-
-
 input:focus,
 textarea:focus,
 select:focus {
@@ -88,24 +85,24 @@ h1,h2,h3,h4,h6 {
 
 
 .main_wrap {
-	width: 100%;
-	max-width: 991px;
-	margin: auto;
-	background: url(./img/Pozadina-patern-tbl.png);
-	background-size: cover;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+  width: 100%;
+  max-width: 991px;
+  margin: auto;
+  background: url(./img/Pozadina-patern-tbl.png);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .home_main {
-	width: 100%;
+  width: 100%;
 }
 
 .main_wrap .main_logo {
-	text-align: center;
+  text-align: center;
     position: absolute;
     top: 20%;
     left: 50%;
@@ -113,19 +110,19 @@ h1,h2,h3,h4,h6 {
 }
 
 .main_wrap .main_logo img {
-	display: block;
-	margin: auto;
+  display: block;
+  margin: auto;
 }
 
 .main_wrap p {
-	font-family: 'AvenirLTStd-Black';
-	color: #FFFDE9;
-	font-size: 17px;
-	text-align: center;
+  font-family: 'AvenirLTStd-Black';
+  color: #FFFDE9;
+  font-size: 17px;
+  text-align: center;
 }
 
 .age_gate {
-	margin-top: 25%;
+  margin-top: 25%;
 }
 
 
@@ -133,21 +130,21 @@ h1,h2,h3,h4,h6 {
 /** Custom Select **/
 
 .form_select {
-	display: flex;
-  justify-content: center;
-  width: 405px;
-  margin: 5% auto 0;
-  background: #fff;
-  border-radius: 10px;
-  padding: 10px 20px;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 405px;
+    margin: 5% auto 0;
+    background: #fff;
+    border-radius: 10px;
 }
 
 
 .btn {
-	width: 100%;
+  width: 100%;
 }
 
-/*.form_select .btn button {
+.form_select .btn button {
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
@@ -163,32 +160,19 @@ h1,h2,h3,h4,h6 {
 }
 
 .form_select .btn button:hover {
-	background: #fff;
-	color: #151e4e;
-}*/
+  background: #fff;
+  color: #151e4e;
+}
 
 
 .custom-select {
     position: relative;
     display: inline-block;
     width: 100%;
-
-
-    border: none;
-    background-image: url(./img/arrow_down.png);
-    background-repeat: no-repeat;
-    background-color: #fff;
-    background-position: center right 15px;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    background-size: 10px;
-    font-family: 'AvenirLTStd-Black';
-    font-size: 12px;
 }
     
-/*.custom-select-trigger {
-	position: relative;
+.custom-select-trigger {
+  position: relative;
     display: block;
     color: #000;
     cursor: pointer;
@@ -200,8 +184,8 @@ h1,h2,h3,h4,h6 {
 }
 
 .form_select .custom-select.last .custom-select-trigger {
-	border-right: none !important;
-}*/
+  border-right: none !important;
+}
 
 .custom-select-trigger:after {
     display: block;
@@ -215,40 +199,40 @@ h1,h2,h3,h4,h6 {
 }
      
 
-/*.custom-select-wrapper {
+.custom-select-wrapper {
     flex: 1;
     padding: 10px 20px;
 }
 
 .custom-options {
-	position: absolute;
-	display: block;
-	top: 100%; left: -20px; right: 0;
-	min-width: 135px;
-	margin: 15px 0;
-	border: 1px solid #b5b5b5;
-	border-radius: 4px;
-	box-sizing: border-box;
-	box-shadow: 0 2px 1px rgba(0,0,0,.07);
-	background: #fff;
-	transition: all .4s ease-in-out;    
-	opacity: 0;
-	visibility: hidden;
-	pointer-events: none;
-	transform: translateY(-15px);
-	height: 193px;
+  position: absolute;
+  display: block;
+  top: 100%; left: -20px; right: 0;
+  min-width: 135px;
+  margin: 15px 0;
+  border: 1px solid #b5b5b5;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 1px rgba(0,0,0,.07);
+  background: #fff;
+  transition: all .4s ease-in-out;    
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-15px);
+  height: 193px;
     overflow: scroll;
-}*/
+}
 
-/*.custom-select.opened .custom-options {
-	opacity: 1;
-	visibility: visible;
-	pointer-events: all;
-	transform: translateY(0);
-}*/
+.custom-select.opened .custom-options {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  transform: translateY(0);
+}
 
-/*.custom-option {
-	font-family: 'AvenirLTStd-Black';
+.custom-option {
+  font-family: 'AvenirLTStd-Black';
     position: relative;
     display: block;
     padding: 0 15px;
@@ -273,36 +257,36 @@ h1,h2,h3,h4,h6 {
 .custom-option:hover,
 .custom-option.selection {
     background: #f9f9f9;
-}*/
+}
 
 .main_wrap p.copy,
 .locations .copy,
 .rules .copy,
 .winners .copy {
-	font-size: 13px;
-	position: absolute;
-	margin: 0;
-	left: 50%;
-	transform: translate(-50%);
-	bottom: 30px;
-	font-family: 'AvenirLTStd-Black';
+  font-size: 13px;
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 30px;
+  font-family: 'AvenirLTStd-Black';
 }
 
 
 /* Locations page */
 
 .locations {
-	width: 100%;
-	max-width: 991px;
-	margin: auto;
-	background: url(./img/Pozadina-720x800.png);
+  width: 100%;
+  max-width: 991px;
+  margin: auto;
+  background: url(./img/Pozadina-720x800.png);
   background-position: center;
-	background-size: cover;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 @media only screen and (min-width: 600px) {
@@ -316,20 +300,20 @@ h1,h2,h3,h4,h6 {
 
 
 .locations .location_top {
-    position: absolute;
-    top: 10%;
-    left: 15%;
+  position: absolute;
+  top: 10%;
+  left: 15%;
 }
 
 .locations .copy,
 .rules .copy,
 .winners .copy {
-	color: #016F42;
+  color: #016F42;
 }
 
 
 .locations_form {
-	position: absolute;
+  position: absolute;
   top: 71%;
   left: 50%;
   transform: translate(-50%);
@@ -338,7 +322,7 @@ h1,h2,h3,h4,h6 {
 
 .locations_form input,
 .locations_form .custom-select-wrapper {
-	width: 100%;
+  width: 100%;
     background: #f6f5ea;
     padding: 12px 20px;
     border-radius: 8px;
@@ -351,15 +335,15 @@ h1,h2,h3,h4,h6 {
 }
 
 .locations_form .custom-select-trigger {
-	font-family: 'AvenirLTStd-Roman';
-	color: #0D5F2D;
-	font-style: italic;
-	padding: 0;
+  font-family: 'AvenirLTStd-Roman';
+  color: #0D5F2D;
+  font-style: italic;
+  padding: 0;
 }
 
 
 .locations_form .custom-select-trigger:after {
-	position: absolute;
+  position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -386,8 +370,8 @@ h1,h2,h3,h4,h6 {
 
 .locations_form input:-moz-placeholder { /* Firefox 18- */
   font-family: 'AvenirLTStd-Roman';
-	color: #0D5F2D;
-	font-style: italic;
+  color: #0D5F2D;
+  font-style: italic;
 }
 
 
@@ -431,7 +415,7 @@ h1,h2,h3,h4,h6 {
 
 
 .upload_section {
-	display: flex;
+  display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
@@ -444,7 +428,7 @@ h1,h2,h3,h4,h6 {
 
 
 .upload_section input[type=submit] {
-	background: #016F42;
+  background: #016F42;
   font-family: 'AvenirLTStd-Black';
   font-style: normal;
   color: #EDEDED;
@@ -562,4 +546,116 @@ h1,h2,h3,h4,h6 {
 }
 
 
+/* Mobile */
 
+@media only screen and (max-width:600px) {
+
+  .main_wrap .main_logo {
+    top: 100px;
+  }
+
+  .age_gate {
+    margin-top: 170px;
+  }
+
+  .custom-options {
+    height: 125px;
+    min-width: 107px;
+  }
+
+  .custom-option {
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .locations .location_top {
+    top: 100px;
+    left: 30px;
+  }
+
+  .locations {
+    background: url(./img/Pozadina-mob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fffde9;
+    background-position: center;
+  }
+
+  .locations_form {
+    top: 67%;
+    width: 80%;
+  }
+
+  .locations_form input[type=file] + label {
+    width: 155px;
+    height: 40px;
+  }
+
+  .upload_section input[type=submit] {
+    width: 116px;
+    height: 40px;
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .form_select {
+    width: 85%;
+    margin: 40px auto 0;
+  }
+
+  .locations_form .custom-select-wrapper,
+  .locations_form input {
+    font-size: 13px;
+    padding: 7px 15px;
+  }
+  .locations_form .custom-select-trigger {
+    font-size: 12.5px;
+  }
+
+  .locations_form .custom-options {
+    left: -15px;
+    right: -15px;
+    margin-top: 18px;
+    height: 156px;
+  }
+
+  .locations_form .custom-option {
+    font-size: 12px;
+    line-height: 30px !important;
+  }
+
+  .rules_box .rules_list {
+    width: 85%;
+    height: 375px;
+    margin: auto;
+  }
+
+  .rules_box .rules_list p {
+    font-size: 20px;
+  }
+
+  .winner_list {
+    width: 100%;
+    height: auto;
+  }
+
+  .box {
+    height: 405px;
+    overflow: scroll;
+  }
+
+
+}
+
+@media only screen and (max-width:375px) {
+  .rules, .winners {
+    height: 900px;
+  }
+
+  .locations {
+    height: 830px;
+  }
+}
+
+
+  
