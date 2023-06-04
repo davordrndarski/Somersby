@@ -300,9 +300,9 @@ h1,h2,h3,h4,h6 {
 
 
 .locations .location_top {
-  position: absolute;
-  top: 10%;
-  left: 15%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
 }
 
 .locations .copy,
