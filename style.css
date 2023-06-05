@@ -745,9 +745,9 @@ h6 {
   }
 
   .upload_section input[type="submit"] {
-    /* width: 35vw; */
-    /* width: 116px; */
-    padding: 0 25px;
+    width: 35vw;
+    width: 116px;
+    /* padding: 0 25px; */
     height: 40px;
     margin: 0;
     font-size: 15px;
