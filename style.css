@@ -566,8 +566,7 @@ h6 {
 .upload_section {
   display: flex;
   align-items: flex-end;
-  /* justify-content: space-between; */
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .locations_form input[type="file"] + label.btn-2:hover::before {
@@ -737,7 +736,8 @@ h6 {
 
   .locations_form {
     top: 67%;
-    width: 80%;
+    /* width: 80%; */
+    width: 60%;
   }
 
   .locations_form input[type="file"] + label {
