@@ -3,10 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/animate.css">
+	<link rel="stylesheet" href="./css/bubbles.css">
 	<link rel="stylesheet" href="style.css">
 	<title>Somersby</title>
 </head>
 <body>
+
+
 	<section class="main_wrap">
 
 		<div class="mob-btn">
@@ -24,12 +28,12 @@
 
 		<div class="home_main">
 			<div class="main_logo">
-				<img src="img/logotip.svg" alt="somersby">
-				<img src="img/zar-vam-nije-divno.svg" alt="somersby">
+				<img class="wow bounceIn" data-wow-duration="1.5s" src="img/logotip.svg" alt="somersby">
+				<img class="wow bounceIn" data-wow-duration="2.5s" src="img/zar-vam-nije-divno.svg" alt="somersby">
 			</div>
 
 			<div class="age_gate">
-				<p>Posetioci ove stranice </br>moraju imati 18 ili više godina.</p>
+				<p class="object-non-visible wow fadeInUp" data-wow-duration="1s"> Posetioci ove stranice </br>moraju imati 18 ili više godina.</p>
 
 					<form id="" action="" method="" class="form_select">
 						<select id="" class="custom-select" placeholder="Dan">
@@ -166,7 +170,6 @@
 			</div>
 			<!-- End age gate -->
 
-			
 			<p class="copy">©2023. Carlsberg Srbija Doo</p>
 		</div>
 	</section>
@@ -174,6 +177,7 @@
 
 
 <script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/wow.min.js"></script>
 <script src="./js/main.js"></script>
 
 
