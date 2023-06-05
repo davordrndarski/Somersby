@@ -79,6 +79,15 @@ h6 {
   font-weight: normal;
 }
 
+
+.winners_wrap {
+  z-index: 1;
+}
+
+.rules_wrap {
+  z-index: 1;
+}
+
 /* Nav */
 
 .mob-btn {

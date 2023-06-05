@@ -11,6 +11,7 @@ body {
   top: 0;
   width: 100% !important;
   opacity: 0.4;
+  z-index: auto;
 }
 
 /* KEYFRAMES */
