@@ -750,6 +750,8 @@ h6 {
     height: 40px;
     margin: 0;
     font-size: 15px;
+    position: absolute;
+    right: 0;
   }
 
   .form_select {
