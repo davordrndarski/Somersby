@@ -736,8 +736,7 @@ h6 {
 
   .locations_form {
     top: 67%;
-    /* width: 80%; */
-    width: 60%;
+    width: 80%;
   }
 
   .locations_form input[type="file"] + label {
