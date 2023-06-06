@@ -1,27 +1,42 @@
 @font-face {
   font-family: "AvenirLTStd-Book";
-  src: url("./fonts/AvenirLTStd-Book.otf");
+  src: url("../fonts/AvenirLTStd-Book.otf");
 }
 
 @font-face {
   font-family: "AvenirLTStd-Roman";
-  src: url("./fonts/AvenirLTStd-Roman.otf");
+  src: url("../fonts/AvenirLTStd-Roman.otf");
 }
 
 @font-face {
   font-family: "AvenirLTStd-Black";
-  src: url("./fonts/AvenirLTStd-Black.otf");
+  src: url("../fonts/AvenirLTStd-Black.otf");
 }
 
 @font-face {
   font-family: "DancingScript-VariableFont_wght";
-  src: url("./fonts/DancingScript-VariableFont_wght.ttf");
+  src: url("../fonts/DancingScript-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: "InriaSans-Regular";
-  src: url("./fonts/InriaSans-Regular.ttf");
+  src: url("../fonts/InriaSans-Regular.ttf");
 }
+
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+
+
+
 
 input:focus,
 textarea:focus,
@@ -127,7 +142,7 @@ h6 {
 .nav li a {
   color: #fff;
   font-size: 24px;
-  font-family: "AvenirLTStd-Black";
+  font-family: "Montserrat-Bold";
   text-transform: uppercase;
 }
 
@@ -242,7 +257,7 @@ h6 {
   width: 100%;
   max-width: 991px;
   margin: auto;
-  background: url(./img/Pozadina-patern-tbl.png);
+  background: url(../img/Pozadina-patern-tbl.png);
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -344,7 +359,7 @@ h6 {
   width: 10px;
   height: 7px;
   background-size: contain !important;
-  background: url(./img/arrow_down.png);
+  background: url(../img/arrow_down.png);
   background-repeat: no-repeat;
   margin-left: 10px;
 }
@@ -432,7 +447,7 @@ h6 {
   width: 100%;
   max-width: 991px;
   margin: auto;
-  background: url(./img/Pozadina-720x800.png);
+  background: url(../img/Pozadina-720x800.png);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -549,7 +564,7 @@ h6 {
   display: inline-block;
   margin-bottom: 1rem;
   outline: none;
-  background: url(./img/file_img.svg);
+  background: url(../img/file_img.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 190px;
@@ -565,9 +580,9 @@ h6 {
 }
 
 .locations_form .custom-option {
-  font-family: "AvenirLTStd-Roman";
+  font-family: "Montserrat-Regular";
   font-style: normal;
-  font-size: 14px;
+  font-size: 13px;
   background: #f7f7ed;
   line-height: 38px !important;
 }
@@ -655,8 +670,8 @@ h6 {
   background-size: 10px;
   width: 260px;
   text-align: center;
-  font-family: "AvenirLTStd-Black";
-  font-size: 12px;
+  font-family: "Montserrat-Bold";
+  font-size: 11px;
 }
 
 .winner_list {
@@ -703,7 +718,7 @@ h6 {
   }
 
   .nav li a {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .main_wrap .main_logo {
@@ -736,7 +751,7 @@ h6 {
   }
 
   .locations {
-    background: url(./img/Pozadina-mob.png);
+    background: url(../img/Pozadina-mob.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #fffde9;
