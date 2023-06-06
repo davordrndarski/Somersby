@@ -297,7 +297,7 @@ h6 {
 
 /** Custom Select **/
 
-.form_select {
+.form_wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -311,7 +311,7 @@ h6 {
   width: 100%;
 }
 
-.form_select .btn button {
+.form_wrap .btn button {
   background: transparent;
   border: 2px solid #fff;
   color: #fff;
@@ -326,10 +326,33 @@ h6 {
   transition: all 0.5s;
 }
 
-.form_select .btn button:hover {
+.form_wrap .btn button:hover {
   background: #fff;
   color: #151e4e;
 }
+
+.form_select {
+  position: relative;
+  z-index: 5;
+}
+
+
+#go_next {
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 50px;
+  background: #fff;
+  color: #000;
+  border: none;
+  font-family: "AvenirLTStd-Black";
+  font-size: 14px;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
 
 .custom-select {
   position: relative;
@@ -349,7 +372,7 @@ h6 {
   align-items: center;
 }
 
-.form_select .custom-select.last .custom-select-trigger {
+.form_wrap .custom-select.last .custom-select-trigger {
   border-right: none !important;
 }
 
@@ -778,7 +801,7 @@ h6 {
     right: 0;
   }
 
-  .form_select {
+  .form_wrap {
     width: 85%;
     margin: 40px auto 0;
   }
