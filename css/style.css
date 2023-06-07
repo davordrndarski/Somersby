@@ -863,6 +863,13 @@ h6 {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .locations {
+      height: 1000px;
+  }
+}
+
+
 @media only screen and (max-width: 375px) {
   .rules,
   .winners {
@@ -870,7 +877,7 @@ h6 {
   }
 
   .locations {
-    height: 1000px;
+    height: 950px;
   }
 
 }
