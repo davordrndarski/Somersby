@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/animate.css">
+	<link rel="stylesheet" href="./css/bubbles.css">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+
+	<title>Somersby</title>
+</head>
+<body>
+	<section class="locations">
+
+
+	<!-- Animation Bubbles -->
+	<div class="bubbles" id="background-wrap">
+		<div class="bubble x1"></div>
+		<div class="bubble x2"></div>
+		<div class="bubble x3"></div>
+		<div class="bubble x4"></div>
+		<div class="bubble x5"></div>
+		<div class="bubble x6"></div>
+		<div class="bubble x7"></div>
+		<div class="bubble x8"></div>
+		<div class="bubble x9"></div>
+		<div class="bubble x10"></div>
+	</div>
+	<!-- END Animation Bubbles -->
+
+
+		<div class="mob-btn">
+            <button class="toggle-menu"><span></span></button>
+        </div>
+
+		<div class="nav">
+			<ul>
+				<li><a href="pocetna.html">Početna</a></li>
+				<li><a href="pravilnik.html">Pravilnik</a></li>
+				<li><a href="dobitnici.html">Dobitnici</a></li>
+			</ul>
+		</div>
+
+
+		<div class="location_top wow bounceIn" data-wow-duration="1.5s">
+			<img src="img/title.svg" alt="somersby">	
+		</div>
+		<img class="location_logo wow bounceIn" data-wow-duration="2.5s" src="img/logotip.svg" alt="somersby">
+
+
+		<div class="locations_form">
+			<form id="" action="" method="" class="location_select">
+
+				<!-- Location select -->
+
+	       <select id="single" class="js-example-basic-single" name="state">
+	        <option></option>
+				 	<option value="beer-bar-loznica">BEER BAR - Loznica</option>
+					<option value="akvarijum-mm-loznica">AKVARIJUM-MM - Loznica</option>
+					<option value="avenija-caffe-sur-loznica">AVENIJA CAFFE SUR - Loznica</option>
+					<option value="don-carlos-lounge-bar-loznica">DON CARLOS LOUNGE BAR - Loznica</option>
+					<option value="cyrano-coffee-chop-loznica">CYRANO COFFEE CHOP - Loznica</option>
+					<option value="mali-metropol-bife-sabac">MALI METROPOL BIFE - Šabac</option>
+					<option value="cake-factory-adonis-015-ur-sabac">CAKE FACTORY ADONIS 015 UR - Šabac</option>
+					<option value="gr-coping-rj-kafe-nanasabac">GR COPING RJ KAFE NANA - Šabac</option>
+				</select>
+
+
+
+			    <input type="text" placeholder="Ime i prezime">
+
+			    <input type="email" placeholder="Email">
+
+			    <div class="upload_section">
+			  		<div class="wow bounceIn" data-wow-duration="2.5s">
+				  		<input type="file" id="file" />
+							<label for="file" class="btn-2">Okači </br> fotografiju</label>
+				  	</div>
+
+					<input class="wow bounceIn" data-wow-duration="2.5s" type="submit" value="Pošalji">
+			  	</div>
+
+			</form>
+		</div>
+
+		<p class="copy">©2023. Carlsberg Srbija</p>
+
+
+		<!-- POPUP -->
+
+		<div class="custom_popup">
+			<div class="popup_wrap wow bounceIn">
+				<div class="close_popup"><img src="img/close_btn.svg"></div>
+				<img class="popup_logo" src="img/logotip.svg">
+				<img class="popup_text" src="img/popup_text.svg">
+				<img class="popup_gift" src="img/popup_gift.svg">
+				<p>*svake nedelje nagrađujemo <br> pet najboljih fotografija</p>
+			</div>
+		</div>
+
+
+
+
+	</section>
+</body>
+
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/wow.min.js"></script>
+
+<script src="./js/main.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+
+ <script>
+  $("#single").select2({
+      placeholder: "Odaberite lokal",
+  });
+ </script>
+
+
+ <script>
+ 	// Close popup
+
+	$('.close_popup').click(function() {
+  $('.custom_popup').fadeOut();
+	});
+ </script>
+
+
+</html>
+
