@@ -95,8 +95,9 @@ h6 {
 }
 
 
-.winners_wrap {
+.winners_box {
   z-index: 1;
+  position: relative;
 }
 
 
