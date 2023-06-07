@@ -137,6 +137,7 @@ h6 {
 
 .nav li {
   margin: 25px 0;
+  text-align: left;
 }
 
 .nav li a {
@@ -518,7 +519,7 @@ h6 {
 }
 
 .locations_form input,
-.locations_form .custom-select-wrapper {
+.locations_form .location_select select {
   width: 100%;
   background: #f6f5ea;
   padding: 12px 20px;
@@ -529,45 +530,53 @@ h6 {
   color: #0d5f2d;
   font-style: italic;
   font-size: 15px;
+  display: inline-block;
 }
 
-.locations_form .custom-select-trigger {
+.locations_form .location_select select {
+  padding: 12px 15px;
   font-family: "AvenirLTStd-Roman";
   color: #0d5f2d;
   font-style: italic;
-  padding: 0;
+  font-size: 14.5px;
+  font-weight: normal;
+  display: inline-block;
+  min-height: 42px;
+  border: none;
+  background-image: url(../img/arrow_down.png);
+  background-repeat: no-repeat;
+  background-color: #f6f5ea;
+  background-position: center right 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-size: 10px;
 }
 
-.locations_form .custom-select-trigger:after {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+#select_object {
+  display: none;
 }
+
 
 .locations_form input::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   font-family: "AvenirLTStd-Roman";
   color: #0d5f2d;
   font-style: italic;
 }
 
 .locations_form input::-moz-placeholder {
-  /* Firefox 19+ */
   font-family: "AvenirLTStd-Roman";
   color: #0d5f2d;
   font-style: italic;
 }
 
 .locations_form input:-ms-input-placeholder {
-  /* IE 10+ */
   font-family: "AvenirLTStd-Roman";
   color: #0d5f2d;
   font-style: italic;
 }
 
 .locations_form input:-moz-placeholder {
-  /* Firefox 18- */
   font-family: "AvenirLTStd-Roman";
   color: #0d5f2d;
   font-style: italic;
@@ -666,11 +675,12 @@ h6 {
 }
 
 .rules_box .rules_list p {
-  font-family: "DancingScript-VariableFont_wght";
+  font-family: "Montserrat-Regular";
   color: #006e41;
-  font-size: 27px;
+  font-size: 14px;
   text-align: left;
   margin-top: 0;
+  line-height: 1.5;
 }
 
 /* Winners */
@@ -811,9 +821,14 @@ h6 {
     font-size: 13px;
     padding: 7px 15px;
   }
-  .locations_form .custom-select-trigger {
-    font-size: 12.5px;
+
+
+  .locations_form .location_select select {
+    padding: 7px 15px;
+    font-size: 12.8px;
+    min-height: 30px;
   }
+
 
   .locations_form .custom-options {
     left: -15px;
@@ -834,7 +849,7 @@ h6 {
   }
 
   .rules_box .rules_list p {
-    font-size: 20px;
+    font-size: 13px;
   }
 
   .winner_list {
@@ -850,11 +865,9 @@ h6 {
 
 @media only screen and (max-width: 375px) {
   .rules,
-  .winners {
+  .winners,
+  .locations {
     height: 900px;
   }
 
-  .locations {
-    height: 830px;
-  }
 }

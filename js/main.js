@@ -1,4 +1,6 @@
-// Custom select
+
+
+// Age gate custom select
 
 $(".custom-select").each(function() {
   var classes = $(this).attr("class"),
@@ -46,6 +48,23 @@ $(document).on("change", ".boxselect", function () {
   $("." + $this.val()).show();
   console.log("showing " + $this.val() + " boxes");
 });
+
+
+// Show and hide winner select
+
+
+
+$("#select_city").change(function(){
+  if($(this).val() == 'beograd'){
+
+    $("#select_object").show();
+  }else{
+    $("#select_object").hide();
+  }
+});
+
+
+
 
 
 
