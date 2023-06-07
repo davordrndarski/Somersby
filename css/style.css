@@ -869,14 +869,14 @@ h6 {
   .locations {
     height: 900px;
   }
-}
 
-
-@media only screen and (max-width: 375px) {
   .rules,
   .winners {
     height: 900px;
   }
+}
+
+
 
 
 }
