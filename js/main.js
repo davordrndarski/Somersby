@@ -86,7 +86,12 @@ wow = new WOW({
 
 wow.init();
 
+
+// Gallery
+
 $(".fancybox").fancybox();
+
+
 
 
 
