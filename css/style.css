@@ -99,9 +99,7 @@ h6 {
   z-index: 1;
 }
 
-.rules_wrap {
-  z-index: 1;
-}
+
 
 /* Nav */
 
@@ -672,6 +670,8 @@ h6 {
   height: 400px;
   overflow: scroll;
   padding: 20px 20px 0;
+  position: relative;
+  z-index: 5;
 }
 
 .rules_box .rules_list p {
