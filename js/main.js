@@ -86,6 +86,8 @@ wow = new WOW({
 
 wow.init();
 
+$(".fancybox").fancybox();
+
 
 
 
